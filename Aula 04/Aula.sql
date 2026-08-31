@@ -29,3 +29,12 @@ CREATE TABLE Contas(
 -- SELECT COUNT(*), AVG(preco)
 -- FROM Produtos
 -- WHERE categoria = 'Eletrônicos';
+
+
+-- create table estoque(
+--	id SERIAL primary key,
+--	produto VARCHAR(50) not null unique,
+--	quantidade INT not null check(quantidade > 0),
+--	data_insert data not null
+--);
+
